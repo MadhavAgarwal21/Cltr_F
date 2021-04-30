@@ -74,25 +74,25 @@ const Home = () => {
         {
             id: 1,
             img: images.promoBanner,
-            title: "Bonus Cashback1",
+            title: "Cashback100",
             description: "Don't miss it. Grab it now!"
         },
         {
             id: 2,
             img: images.promoBanner,
-            title: "Bonus Cashback2",
+            title: "10% OFF",
             description: "Don't miss it. Grab it now!"
         },
         {
             id: 3,
             img: images.promoBanner,
-            title: "Bonus Cashback3",
+            title: "15% DISCOUNT",
             description: "Don't miss it. Grab it now!"
         },
         {
             id: 4,
             img: images.promoBanner,
-            title: "Bonus Cashback4",
+            title: "CASHBACK50",
             description: "Don't miss it. Grab it now!"
         },
     ]
@@ -149,7 +149,7 @@ const Home = () => {
         return (
             <View
                 style={{
-                    height: 120,
+                    height: 250,
                     borderRadius: 20,
                 }}
             >
@@ -308,7 +308,7 @@ const Home = () => {
     }
 
     return (
-        <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white, paddingTop: 20 }}>
+        <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white, paddingTop: 30 }}>
             {renderPromos()}
         </SafeAreaView>
     )

@@ -3,14 +3,14 @@ const { width, height } = Dimensions.get("window");
 
 export const COLORS = {
     // base colors
-    primary: "#24C16B", // green
+    primary: "#6739b7", // PhonePayPurple
     secondary: "#0C381F",   // dark green
 
-    green: "#66D59A",
+    green: "#6739b7",
     lightGreen: "#E6FEF0",
 
-    lime: "#00BA63",
-    emerald: "#2BC978",
+    lime: "#CBC3E3",
+    emerald: "#6739b7",
 
     red: "#FF4134",
     lightRed: "#FFF1F0",

@@ -60,17 +60,6 @@ const SignUp = ({ navigation }) => {
                 }}
                 onPress={() => console.log("Sign Up")}
             >
-                <Image
-                    source={icons.back}
-                    resizeMode="contain"
-                    style={{
-                        width: 20,
-                        height: 20,
-                        tintColor: COLORS.white
-                    }}
-                />
-
-                <Text style={{ marginLeft: SIZES.padding * 1.5, color: COLORS.white, ...FONTS.h4 }}>Sign Up</Text>
             </TouchableOpacity>
         )
     }
